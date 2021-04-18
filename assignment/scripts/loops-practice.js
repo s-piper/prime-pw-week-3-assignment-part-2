@@ -38,7 +38,9 @@ for (let i = 1; i < 11; i++) {
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a counddown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
-
+for (var i = 5; i >= 0; i--) {
+  console.log('Countdown', i);
+}
 
 // 2. For of loops
 console.log('---- 2. For Of loop ----');
